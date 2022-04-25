@@ -1,6 +1,6 @@
 {
   "name": "@arifdroid/bare-react-library",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/arifdroid"
   },
@@ -27,5 +27,8 @@
     "rollup-plugin-dts": "^4.2.1",
     "tslib": "^2.4.0",
     "typescript": "^4.6.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.6 || ^17.0.0 || ^17.0.1 || ^17.0.2 || ^18.0.0"
   }
 }
